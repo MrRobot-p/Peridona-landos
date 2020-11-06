@@ -707,6 +707,35 @@ tr > .company-table__sub {
     color: #bbb;
     font-size: 16px;
 }
+.moments_img-grid {
+    display: grid;
+    grid-template: 
+        "a a a a a b b b c c c c" 
+        "a a a a a b b b f f f f" 
+        "d d d d e e e e f f f f";
+    grid-gap: 30px;
+}
+.moments_img-grid img {
+    width: 100%;
+}
+.moments_img-1 {
+    grid-area: a;
+}
+.moments_img-2 {
+    grid-area: b;
+}
+.moments_img-3 {
+    grid-area: c;
+}
+.moments_img-4 {
+    grid-area: d;
+}
+.moments_img-5 {
+    grid-area: e;
+}
+.moments_img-6 {
+    grid-area: f;
+}
 
 
 footer {

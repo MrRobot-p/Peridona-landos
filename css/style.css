@@ -1,13 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 * {
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
     padding: 0;
     margin: 0;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap');
-
 body {
-    font-family: 'Rubik';
+    font-family: ;
     font-size: 16px;
     line-height: 26px;
 }
@@ -46,47 +48,36 @@ li {
 }
 
 .main-header {
-    background: url('../img/1.jpg') no-repeat center top -88px;
-    box-shadow: inset 0 855px 0 0 rgba(12, 34, 85, 0.7);
+    padding-top: 5px;
+    background: url('../img/1.jpg') no-repeat center top -87px;
+    box-shadow: inset 0 867px 0 0 rgba(12, 34, 85, 0.7);
     background-size: cover;
     margin-bottom: 110px;
-
-
+   
 }
-
-.trapezoid-pos {
+.contact-info {
     display: flex;
-    justify-content: flex-end;
-}
-
-.trapezoid {
-    transform: translateY(5px);
-
-    border-top: 55px solid #fff;
+    justify-content: space-around;
+    border-top: 55px solid white;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 0;
-    width: 766px;
+    width: 765px;
 }
-
-.iteem {
+.header-contact {
+    margin-left: 490px;
+    margin-bottom: 60px;
+   
+}
+.contact-infolist {
+    height: 53px;
+    width: 520px;
+    color: #082362;
     display: flex;
-    position: absolute;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-around;
-    bottom: 15px;
-}
-
-.iteem li {
-    padding-right: 25px;
-}
-
-.iteem li a {
-    color: #131f4f;
-    text-decoration: none;
+    font-size: 15px;
+    margin-top: -50px; 
 }
 
 .job-days {
@@ -118,7 +109,9 @@ li {
 .hello-block h1 {
     font-weight: 500;
     font-size: 60px;
-    line-height: 70px;
+    line-height: 75px;
+    margin-top: 50px;
+    margin-bottom: 35px ;
 }
 
 .hello-block p {
@@ -156,7 +149,7 @@ li {
     border-bottom: 2px solid gray;
     background-color: #fff;
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
 }
 
 .brend li {
@@ -320,9 +313,8 @@ li {
 .work-list h3 {
     font-size: 18px;
     font-weight: medium;
-    /* padding-left: 70px; */
     color: #fff;
-    padding-bottom: 30px;
+    padding-bottom: 13px;
 }
 
 .work-list p {
@@ -334,7 +326,6 @@ li {
 
 .work-video {
     height: 100%;
-
     margin-left: 50px;
 }
 
@@ -376,17 +367,6 @@ li {
     position: absolute;
     margin-left: 30px;
 }
-
- .service-title h2::before {
-	content: '';
-	width: 4px;
-	height: 35px;
-	display: inline-block;
-	background-color: #082362;
-	left: 108.5%;
-	top: 25%;
-	position: absolute;
-} 
 
 .service-blocks {
     margin-top: 55px;
@@ -505,18 +485,14 @@ tr > .company-table__sub {
 }
 
 .blue-btn  {
+    display: inline-block;
     color: #fff;
     background-color: #082362;
     padding: 10px 20px;
     text-decoration: none;
     font-weight: 500;
 }
-.blue-btn:hover{
-    -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-    transition: all 0.3s ease;    
-}
+
 
 .team-blocks {
     display: flex;
@@ -843,6 +819,13 @@ footer .socials li {
 
 .company-on-map {
     font-size: 0;
+}
+
+.blue-btn:hover{
+    -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+    transition: all 0.3s ease;    
 }
 
 a:hover {

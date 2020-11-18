@@ -360,7 +360,7 @@ li {
 .service-title h2::after {
     content: '';
     width: 2px;
-    height: 65px;
+    height: 50px;
     display: inline-block;
     bottom: -30%;
     background-color: #082362;
@@ -820,6 +820,20 @@ footer .socials li {
 .company-on-map {
     font-size: 0;
 }
+
+iframe{
+height:450px;
+border:0;
+width:100%;
+
+}
+
+video{
+width="960" 
+height="560.1"
+}
+
+
 
 .blue-btn:hover{
     -webkit-transform: scale(1.2);
